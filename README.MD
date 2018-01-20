@@ -1,7 +1,7 @@
-#ElasticsearchSpringData
+# ElasticsearchSpringData
+## 配置Elasticsearch集群
+### 目前spring boot只支持Elasticsearch2.4.x版本
 
-##配置Elasticsearch集群
-###目前spring boot只支持Elasticsearch2.4.x版本
 采用Elasticsearch2.4.6版本
 解压复制三份：
 1. elasticsearch-cluster：
@@ -30,11 +30,11 @@
 
     子节点slave-2
     ..同上
-##配置springboot
+## 配置springboot
 
 >spring.data.elasticsearch.cluster-name=myelasticsearch
 spring.data.elasticsearch.cluster-nodes=127.0.0.1:9300
 spring.data.elasticsearch.repositories.enabled=true
 
-##备注：为了统一版本号，Elasticsearch从2.x直接跳到了5.x 
+## 备注：为了统一版本号，Elasticsearch从2.x直接跳到了5.x 
 2和5没有太大区别
