@@ -35,3 +35,6 @@
 >spring.data.elasticsearch.cluster-name=myelasticsearch
 spring.data.elasticsearch.cluster-nodes=127.0.0.1:9300
 spring.data.elasticsearch.repositories.enabled=true
+
+##备注：为了统一版本号，Elasticsearch从2.x直接跳到了5.x 
+2和5没有太大区别
